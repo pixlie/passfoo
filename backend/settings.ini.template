@@ -1,0 +1,17 @@
+[settings]
+DEBUG=True
+DB_DEFAULT=postgresql+psycopg2://postgres@localhost/passfoo
+DB_TEST=postgresql+psycopg2://postgres@localhost/passfoo_test
+
+SECRET_KEY=
+
+DAEMON_HOST=127.0.0.1
+DAEMON_PORT=4000
+
+SERVER_DOMAIN=localhost:4000
+SERVER_PROTOCOL=http
+
+MANDRILL_API_KEY=
+DEFAULT_FROM_NAME=Sumit
+DEFAULT_FROM_EMAIL=brainless@pixlie.com
+DEFAULT_SUBJECT_PREFIX=PassFoo
