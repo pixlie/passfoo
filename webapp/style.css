@@ -1,0 +1,60 @@
+@import url("https://unpkg.com/purecss@1.0.0/build/pure-min.css");
+
+body {
+    width: 100%;
+    color: #333;
+    height: 100%;
+}
+
+h1, h2, h3 {
+    font-weight: normal;
+    color: #32325d;
+}
+
+.column {
+    max-width: 768px;
+    margin: 0 auto;
+    background: #f6f9fc;
+}
+
+.column .main-cont {
+    padding: 0 8px;
+}
+
+.faded {
+    color: #666;
+}
+
+.pure-menu {
+    background: #32325d;
+    color: #FFF;
+    overflow: auto;
+}
+
+.pure-menu .pure-menu-list {
+    float: right;
+}
+
+.pure-menu .pure-menu-item .nav-check {
+    display: none;
+}
+
+.pure-menu .pure-menu-link {
+    cursor: pointer;
+    color: #FFF;
+}
+
+.pure-menu .pure-menu-heading {
+    font-weight: bold;
+    color: #FFF;
+    display: block;
+    float: left;
+}
+
+.pure-menu .pure-menu-link {
+    cursor: pointer;
+}
+
+.pure-menu .pure-menu-link:hover {
+    background: transparent;
+}
