@@ -1,0 +1,8 @@
+alembic==0.9.9
+marshmallow==2.15.1
+sanic==0.7.0
+Sanic-Auth==0.2.0
+SQLAlchemy==1.2.7
+psycopg2==2.7.4
+python-decouple==3.1
+pymemcache==1.4.4

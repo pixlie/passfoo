@@ -8,6 +8,7 @@ class QuestionDataType(PyEnum):
     CATEGORY = "category"
     STRING = "string"
     DATE = "date"
+    GEO = "place"
 
 
 class Question(SystemModel):
